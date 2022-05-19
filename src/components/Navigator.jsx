@@ -9,7 +9,7 @@ export default function Navigator(props){
             backgroundColor: props.color ?? 'red'
         }}>
 
-            <Link href={props.destination}>{props.destinationName}</Link>
+            <Link href={props.destination} passHref>{props.destinationName}</Link>
         
         </div>
 

@@ -15,9 +15,11 @@ export default function Home(){
 
         }}>
 
-            <Navigator destination="/fashionist" destinationName="Fashionist"></Navigator>
-            <Navigator destination="/example" destinationName="Example" color="purple"></Navigator>
+            <Navigator destination="/fashionist" destinationName="Fashionista"></Navigator>
+            <Navigator destination="/example" destinationName="Examplo" color="purple"></Navigator>
             <Navigator destination="/jsx" destinationName="JSX"></Navigator>
+            <Navigator destination="/user/santos/2301" destinationName="Navegação Dinâmica" color="gray"></Navigator>
+            <Navigator destination="/state" destinationName="Componente com Estado"></Navigator>
 
         </div>
 

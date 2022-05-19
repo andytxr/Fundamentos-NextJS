@@ -1,12 +1,17 @@
-import styles from './Fashionist.module.css'
+import Layout from '../components/Layout'
+import styles from '../styles/Fashionist.module.css'
 
 export default function Fashionist(){
 
     return (
+        <Layout title="Estilo usando CSS Modules">
+            
+            <div className={styles.purple}>
+                <p>CONTEÚDO!!!</p>
+            </div>
 
-        <div className={styles.purple}>
-            <h1>Estilo usando CSS Modules</h1>
-        </div>
+        </Layout>
+       
 
     )
 

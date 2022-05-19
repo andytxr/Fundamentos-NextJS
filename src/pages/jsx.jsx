@@ -1,3 +1,5 @@
+import Layout from "../components/Layout";
+
 export default function JSX(){
 
     let a = 5;
@@ -13,11 +15,14 @@ export default function JSX(){
 
     return (
 
-        <div>
-            {title}
-            {subtitle()}
-            <h3>{a * b}</h3>
-        </div>
+        <Layout>
+            <div>
+                {title}
+                {subtitle()}
+                <h3>{a * b}</h3>
+            </div>
+        </Layout>
+        
 
     )
 

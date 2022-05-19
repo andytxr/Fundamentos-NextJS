@@ -1,6 +1,13 @@
 .purple{
 
+    height: 100%;
     background-color: purple;
     color: white;
+
+}
+
+.purple h1{
+
+    margin: 0;
 
 }
